@@ -15,6 +15,7 @@ accountCity = "burhanpur";
 
 // new way to log in form of table
 console.table([accountEmail,accountId,accountPassw,accountCity,accountState]);
+console.log(accountEmail)
 
 
 /* Prefer not to use var 
