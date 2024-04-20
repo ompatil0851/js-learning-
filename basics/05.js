@@ -50,3 +50,35 @@ console.log(typeof (myFunction));// fucntion
 //https://262.ecma-international.org/5.1/#sec-11.4.3
 
 
+// video NUmber 10 code with chai-yt
+// Stack and Heap memory in javascript
+
+//*************************************************** */
+
+
+// Stack (Primitive ) , Heap (Non - Primitive)
+
+let myYoutubename = "Ompatilgurjar";
+
+let anotherName = myYoutubename ;
+
+anotherName = "chaiaurcode"
+ console.log(anotherName); // codewithchai
+ console.log(myYoutubename); // ompatilgurjar
+
+
+ let userOne ={
+    email: "user@goggle.com",
+    upi:"user@ybl",
+ }
+
+ let userTwo = userOne;
+
+ userTwo.email = "om@goggle.com";
+
+ console.log(userOne.email);//om@goggle.com
+ console.log(userTwo.email);//om@goggle.com
+
+
+
+
